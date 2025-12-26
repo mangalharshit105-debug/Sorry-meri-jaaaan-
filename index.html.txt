@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I'm Sorry Bubu ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ffd1dc, #ffe6f0);
+            text-align: center;
+            color: #444;
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            color: #ff4d6d;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .heart {
+            font-size: 60px;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .emoji-row {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 30px;
+            background: #ff4d6d;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #e63e5c;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>I'm Really Sorry Bubu</h1>
+
+        <div class="card">
+            <p>
+                Hey <strong>Bubu Patel</strong>,  
+                I know you’re angry, and I know I messed up.
+                I never meant to hurt you or make you feel sad.
+            </p>
+
+            <div class="emoji-row">
+                😔💔🥺
+            </div>
+
+            <p>
+                You mean the world to me.  
+                Your smile is my favorite thing, and seeing you upset breaks my heart.
+            </p>
+
+            <div class="emoji-row">
+                🌸💖✨
+            </div>
+
+            <p>
+                Please forgive me.  
+                I promise to listen better, care more, and never take you for granted.
+            </p>
+
+            <a class="button" href="#">
+                Can We Smile Again? 😊
+            </a>
+        </div>
+
+        <footer>
+            Made with love by Harshit 💕
+        </footer>
+    </div>
+
+</body>
+</html>
